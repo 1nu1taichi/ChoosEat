@@ -33,8 +33,6 @@ Infrastructure
 
 ## モノレポ構成（初期）
 
-まずはバックエンドから開始し、以下の構成でモノレポを作成しました。
-
 ```text
 ChoosEat/
 ├── backend/
