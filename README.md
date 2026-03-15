@@ -30,3 +30,33 @@ Database
 Infrastructure
 - Docker
 - AWS ECS
+
+## モノレポ構成（初期）
+
+```text
+ChoosEat/
+├── backend/
+│   ├── ChoosEat.Backend.slnx
+│   ├── src/
+│   │   └── ChoosEat.Api/
+│   └── tests/
+│       └── ChoosEat.Api.Tests/
+└── README.md
+```
+
+## Backend セットアップ
+
+### 必要環境
+- .NET SDK 10
+
+### 起動
+
+```bash
+dotnet run --project backend/src/ChoosEat.Api/ChoosEat.Api.csproj
+```
+
+### テスト
+
+```bash
+dotnet test backend/ChoosEat.Backend.slnx
+```
