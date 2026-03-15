@@ -54,11 +54,11 @@ ChoosEat/
 ### 起動
 
 ```bash
-dotnet run --project /home/runner/work/ChoosEat/ChoosEat/backend/src/ChoosEat.Api/ChoosEat.Api.csproj
+dotnet run --project backend/src/ChoosEat.Api/ChoosEat.Api.csproj
 ```
 
 ### テスト
 
 ```bash
-dotnet test /home/runner/work/ChoosEat/ChoosEat/backend/ChoosEat.Backend.slnx
+dotnet test backend/ChoosEat.Backend.slnx
 ```
