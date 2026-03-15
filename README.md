@@ -30,3 +30,35 @@ Database
 Infrastructure
 - Docker
 - AWS ECS
+
+## モノレポ構成（初期）
+
+まずはバックエンドから開始し、以下の構成でモノレポを作成しました。
+
+```text
+ChoosEat/
+├── backend/
+│   ├── ChoosEat.Backend.slnx
+│   ├── src/
+│   │   └── ChoosEat.Api/
+│   └── tests/
+│       └── ChoosEat.Api.Tests/
+└── README.md
+```
+
+## Backend セットアップ
+
+### 必要環境
+- .NET SDK 10
+
+### 起動
+
+```bash
+dotnet run --project /home/runner/work/ChoosEat/ChoosEat/backend/src/ChoosEat.Api/ChoosEat.Api.csproj
+```
+
+### テスト
+
+```bash
+dotnet test /home/runner/work/ChoosEat/ChoosEat/backend/ChoosEat.Backend.slnx
+```
