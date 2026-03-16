@@ -1,6 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 
-namespace ChoosEat.Api.Data;
+namespace ChoosEat.Api.Repositories;
 
 public class ChoosEatDbContext(DbContextOptions<ChoosEatDbContext> options) : DbContext(options)
 {

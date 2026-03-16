@@ -37,7 +37,7 @@ backend/
 │ ├── Services/
 │ │
 │ ├── Repositories/
-│ │ └── ApplicationDbContext.cs
+│ │ └── ChoosEatDbContext.cs
 │ │
 │ ├── Entities/
 │ │
