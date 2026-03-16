@@ -1,4 +1,4 @@
-using ChoosEat.Api.Data;
+using ChoosEat.Api.Repositories;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

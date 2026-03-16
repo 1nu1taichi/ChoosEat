@@ -38,7 +38,11 @@ ChoosEat/
 ├── backend/
 │   ├── ChoosEat.Backend.slnx
 │   ├── src/
-│   │   └── ChoosEat.Api/
+│   │   ├── ChoosEat.Api/
+│   │   ├── ChoosEat.Controllers/
+│   │   ├── ChoosEat.Services/
+│   │   ├── ChoosEat.Repositories/
+│   │   └── ChoosEat.Entities/
 │   └── tests/
 │       └── ChoosEat.Api.Tests/
 └── README.md
