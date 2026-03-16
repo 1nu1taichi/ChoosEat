@@ -31,17 +31,14 @@ SQL Server
 backend/
 ├── ChoosEat.Backend.slnx
 ├── src/
-│ └── ChoosEat.Api/
-│ ├── Controllers/
-│ │
-│ ├── Services/
-│ │
-│ ├── Repositories/
-│ │ └── ChoosEatDbContext.cs
-│ │
-│ ├── Entities/
-│ │
-│ └── Program.cs
+│ ├── ChoosEat.Api/
+│ │ ├── Repositories/
+│ │ │ └── ChoosEatDbContext.cs
+│ │ └── Program.cs
+│ ├── ChoosEat.Controllers/
+│ ├── ChoosEat.Services/
+│ ├── ChoosEat.Repositories/
+│ └── ChoosEat.Entities/
 │
 └── tests/
 └── ChoosEat.Api.Tests/

@@ -1,6 +1,10 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="src/ChoosEat.Api/ChoosEat.Api.csproj" />
+    <Project Path="src/ChoosEat.Controllers/ChoosEat.Controllers.csproj" />
+    <Project Path="src/ChoosEat.Entities/ChoosEat.Entities.csproj" />
+    <Project Path="src/ChoosEat.Repositories/ChoosEat.Repositories.csproj" />
+    <Project Path="src/ChoosEat.Services/ChoosEat.Services.csproj" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/ChoosEat.Api.Tests/ChoosEat.Api.Tests.csproj" />
